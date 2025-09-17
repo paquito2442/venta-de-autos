@@ -1,0 +1,138 @@
+
+.cabeza{
+    background-color:rgb(83, 83, 83);
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0%;
+    justify-content: space-around;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 3;
+}
+
+.logo{
+    width: 100px;
+    display: inline;
+}
+.eslogan{
+    margin-left: 200px;
+    font-size: 50px;
+}
+
+.marcas{
+    color: white;
+    width: 600px;
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+.buscador{
+    height: 20px;
+    margin-top: 25px;
+    border-radius: 20px;
+}
+body{
+    padding: 0%;
+    margin: 0%;
+}
+
+.navs{
+    background-color:rgb(0, 0, 0);
+    width: 120px;
+    padding-left: 10px;
+    height: 100%;
+    position:fixed;
+
+}
+main{
+    margin-left: 130px;
+    margin-top: 0%;
+    background-color:rgb(178, 178, 178);
+    padding: 50px;
+}
+
+.reciente{
+    position: relative;
+    left: 500px;
+    top: 100px;
+    font-size: 45px;
+}
+.zr1x{
+    width: 1000px;
+    margin-left: 200px;
+    margin-top: 100px;
+}
+.modelospopulares{
+    margin-left: 500px;
+}
+.audi{
+    background-color: aqua;
+    width: 600px;
+    display: inline;
+}
+.audiinfo{
+    background-color: blue;
+    display: inline;
+}
+.audicontainer{
+    gap: 210px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 80px;
+}
+.camarocontainer{
+    gap: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+}
+.camaro{
+   display: inline;
+
+}
+.camaroimg{
+    width: 800px;
+    margin-right: 100px;
+    display: inline;
+}
+
+.lamborghinicontainer{
+    gap: 210px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.lamborghini{
+    display: inline;
+}
+
+.lamborghiniimg{
+    width: 500px;
+    display: inline;
+}
+
+.porschecontainer{
+    gap: 210px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.porsche{
+
+}
+
+.porscheimg{
+    width: 600px;
+    display: inline;
+}
